@@ -1,5 +1,11 @@
 # Landing-Page-Project-
-## Project Name
-**Topic**: Put your topic here
+## Flora's Flowers 
+**Topic**: Flower shop
 
-**Tagline**: Put your tagline here
+**Tagline**: Flowers for everyone's special day. 
+
+Helping with birthdays, dates, weddings, and more celebrations. 
+
+## Credits
+Photo by Amina Filkins: https://www.pexels.com/photo/happy-women-working-with-flowers-and-laptop-5410119/ 
+ 
