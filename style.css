@@ -1,24 +1,45 @@
-/*body {
 
+/*
+:*/
+body {
+    font-family: 'Khula', sans-serif;
+    font-weight: 400; 
+    font-size: 120%;
+    background-color: #f5f0ef;
+    color: #252725;
 }
 h1, h2, h3, h4 {
+    font-family: 'Cormorant Garamond', serif;
+    font-weight: 700; 
+}
 
-}*/
-
-/*navbar*/ 
-nav#menu ul {
+#site-nav {
+    background-color: purple;
+}
+#site-nav ul {
     list-style-type: none; 
     margin: 0; 
     padding: 0; 
     display: flex; 
-    flex-direction: row; 
-    justify-content: space-between; 
+    flex-direction: column; 
+   /* justify-content: space-between; */
+
 }
-nav#menu.open ul {
-    opacity: 1; 
-    height: auto; 
+#site-nav ul a {
+    display: block;
+    padding: 0.5em 1em;
+    color: #f5f0ef; 
+    background-color: #BF0426; 
+    text-decoration: none;
+    border: 1px solid black; 
 }
-nav#menu a {
-    text-decoration: none; 
-    display: font; 
+/*#hero {
+
 }
+
+
+@media only screen and (min-width: __px) {
+    
+}
+
+*/ 
