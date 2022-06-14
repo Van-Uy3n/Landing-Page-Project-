@@ -10,9 +10,9 @@ h1, h2, h3, h4 {
     font-family: 'Cormorant Garamond', serif;
     font-weight: 700; 
 }
-header, main, footer {
+/*header, main, footer {
     margin: 0; 
-}
+}*/
 /*nav*/
 #site-nav {
     background-color: #ffffff;
@@ -34,12 +34,24 @@ header, main, footer {
     text-decoration: none;
     border: 1px solid black; 
 }
+
+a.button {
+    text-decoration: none;
+    display: inline-block;
+    background-color: red;
+    color: black; 
+    padding: 0.5em 1em; 
+}
 #hero {
     height: 50vh;
     background-image: url("images/lilac-3369264_1920_mobile.jpg");
-    
+    background-repeat: no-repeat;
+    color: #e1eae1;    
+    background-position-y: 50px; 
 }
-
+section, main, footer {
+    padding: 1em;
+}
 
 /*@media only screen and (min-width: __px) {
     
