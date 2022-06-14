@@ -3,8 +3,8 @@ body {
     font-family: 'Khula', sans-serif;
     font-weight: 400; 
     font-size: 120%;
-    background-color: #f5f0ef;
-    color: #252725;
+    background-color: #e1eae1;
+    color: #2D2C40;
 }
 h1, h2, h3, h4 {
     font-family: 'Cormorant Garamond', serif;
@@ -15,7 +15,7 @@ header, main, footer {
 }
 /*nav*/
 #site-nav {
-    background-color: #f5f0ef;
+    background-color: #ffffff;
 }
 #site-nav ul {
     list-style-type: none; 
@@ -29,14 +29,15 @@ header, main, footer {
 #site-nav ul a {
     display: block;
     padding: 0.5em 1em;
-    color: #f5f0ef; 
-    background-color: #BF0426; 
+    color: #f0f5f0; 
+    background-color: #770FBD; 
     text-decoration: none;
     border: 1px solid black; 
 }
 #hero {
     height: 50vh;
-    background-image: url("images/pexels-amina-filkins-5410119.jpg_mobile.jpg")
+    background-image: url("images/lilac-3369264_1920_mobile.jpg");
+    
 }
 
 
