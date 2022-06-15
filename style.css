@@ -3,8 +3,9 @@ body {
     font-family: 'Khula', sans-serif;
     font-weight: 400; 
     font-size: 120%;
-    background-color: #e1eae1;
+    background-color: #c3d5c3;
     color: #2D2C40;
+    margin: 9; 
 }
 h1, h2, h3, h4 {
     font-family: 'Cormorant Garamond', serif;
@@ -15,15 +16,15 @@ h1, h2, h3, h4 {
 }*/
 /*nav*/
 #site-nav {
-    background-color: #ffffff;
+    background-color: #770FBD;
 }
 #site-nav ul {
     list-style-type: none; 
     margin: 0; 
     padding: 0; 
     display: flex; 
-    flex-direction: row;
-    justify-content: space-evenly; 
+    flex-direction: column;
+    justify-content: space-between; 
 
 }
 #site-nav ul a {
@@ -32,28 +33,32 @@ h1, h2, h3, h4 {
     color: #f0f5f0; 
     background-color: #770FBD; 
     text-decoration: none;
-    border: 1px solid black; 
 }
 
 a.button {
     text-decoration: none;
     display: inline-block;
-    background-color: red;
-    color: black; 
+    color: #2D2C40; 
+    border: 1px solid #2D2C40; 
     padding: 0.5em 1em; 
 }
 #hero {
     height: 50vh;
     background-image: url("images/lilac-3369264_1920_mobile.jpg");
     background-repeat: no-repeat;
-    color: #e1eae1;    
+    background-position: right; 
     background-position-y: 50px; 
+    color: #2D2C40;    
 }
 section, main, footer {
     padding: 1em;
 }
 
-/*@media only screen and (min-width: __px) {
-    
-}*/
+@media only screen and (min-width: 650px) {
+    #site-nav ul {
+        flex-direction: row; 
+        height: auto;
+        opacity: 1; 
+    }
+}
 
