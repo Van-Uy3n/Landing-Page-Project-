@@ -5,7 +5,7 @@ body {
     font-size: 120%;
     background-color: #c3d5c3;
     color: #2D2C40;
-    margin: 9; 
+    margin: 0; 
 }
 h1, h2, h3, h4 {
     font-family: 'Cormorant Garamond', serif;
@@ -38,23 +38,48 @@ h1, h2, h3, h4 {
 a.button {
     text-decoration: none;
     display: inline-block;
-    color: #2D2C40; 
-    border: 1px solid #2D2C40; 
+    color: #f0f5f0; 
+    background-color: #73176d9c;
+    border: 1px solid #73176d9c; 
     padding: 0.5em 1em; 
+    box-shadow: 0 0 0 #ffffff4b; 
 }
 #hero {
-    height: 50vh;
     background-image: url("images/lilac-3369264_1920_mobile.jpg");
     background-repeat: no-repeat;
     background-position: right; 
     background-position-y: 50px; 
+    background-color: #ffffffa8;
     color: #2D2C40;    
+}
+#tagline {
+    padding: 1em;
+    background-color: #ffffffa8;
+    box-shadow: 0 0 0 #ffffff4b;
 }
 section, main, footer {
     padding: 1em;
 }
 
 @media only screen and (min-width: 650px) {
+    #site-nav {
+        grid-area: nav;
+    }
+    #tagline {
+        grid-area: tag;
+    }
+    #hero {
+        background-image: url("images/lilac-3369264_1920.jpg");
+        background-position-y: 100px; 
+        display: grid; 
+        grid-template-columns: 1fr 1fr 1fr 1fr; 
+        grid-template-rows: 15vh 5vh auto 5vh;
+        grid-template-areas: 
+        "nav nav nav nav"
+        ". . image image"
+        "tag tag image image"
+        ". . image image"
+    }
     #site-nav ul {
         flex-direction: row; 
         height: auto;
