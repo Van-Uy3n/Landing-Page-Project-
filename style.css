@@ -40,7 +40,7 @@ a.button {
     display: inline-block;
     color: #f0f5f0; 
     background-color: #73176d9c;
-    border: 1px solid #73176d9c; 
+    border: 3px solid #73176d9c; 
     padding: 0.5em 1em; 
     box-shadow: 0 0 0 #ffffff4b; 
 }
@@ -72,8 +72,8 @@ section, main, footer {
         background-image: url("images/lilac-3369264_1920.jpg");
         background-position-y: 100px; 
         display: grid; 
-        grid-template-columns: 1fr 1fr 1fr 1fr; 
-        grid-template-rows: 15vh 5vh auto 5vh;
+        grid-template-columns: 1fr 1fr 2fr; 
+        grid-template-rows: 1fr;
         grid-template-areas: 
         "nav nav nav nav"
         ". . image image"
